@@ -53,10 +53,10 @@ replacing them with your own.
 
 There are three values that are a bit more involved. Here are instructions for each:
 
-- [Retrieving your "soundcloud_set_id"](#retrieving_set_id)
-- [Retrieving your "soundcloud_key"](#retrieving_your_soundcloud_key)
-- [Choosing Custom Fonts](#custom_fonts)
-- [Uploading a background image](#background_image)
+- [Retrieving your "soundcloud_set_id"](#retrieving-your-set-id)
+- [Retrieving your "soundcloud_key"](#retrieving-your-soundcloud-key)
+- [Choosing Custom Fonts](#custom-fonts)
+- [Uploading a background image](#background-image)
 
 You should be all done editing your configuration now. Click the commit
 changes button:
