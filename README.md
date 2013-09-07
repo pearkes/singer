@@ -1,4 +1,4 @@
-## Singer
+# Singer
 
 A Jekyll template to make a custom album website, including a music
 player and configurable content, all hosted by GitHub pages and powered
