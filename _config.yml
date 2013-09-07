@@ -14,9 +14,6 @@ soundcloud_set_id: 1234567
 # Your soundcloud application API key. See here: github.com/pearkes/singer#retrieving-your-soundcloud-key
 soundcloud_key: w09bjw09erbjwrbwr09bjrw32jv23jb2
 
-# Your username on SoundCloud!
-soundcloud_username: pearkes
-
 # You can sign up for a Google Anayltics account here: http://www.google.com/analytics/
 # That will let you see how many people come to your site, and where they come from.
 # Pretty snazzy.
