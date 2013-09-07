@@ -4,7 +4,7 @@ A Jekyll template to make a custom album website, including a music
 player and configurable content, all hosted by GitHub pages and powered
 by <a href="https://soundcloud.com">SoundCloud</a>.
 
-It's all free and easy to customize.
+It's all free and easy to customize. All changes can be made in the [`_config.yml`](_config.yml) file.
 
 ## Demo
 
