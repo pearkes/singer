@@ -1,0 +1,69 @@
+---
+layout: default
+---
+
+{% raw %}
+<script type="text/x-handlebars">
+{{outlet}}
+</script>
+{% endraw %}
+
+{% raw %}
+<script type="text/x-handlebars" data-template-name="index">
+  <div class="text-center">
+    <h1 class="track-heading">{{model.title}}</h1>
+    <p class="artist">by {% endraw %}{{site.artist_name}}{% raw %}</p>
+    <div class="lead-in">
+      {% endraw %}{{ site.singer_intro }}{% raw %}
+    </div>
+    <ul class="track-list">
+    {{#each track in model.tracks}}
+      <li>{{#linkTo 'song' track}}{{track.title}}{{/linkTo}} <span class="glyphicon glyphicon-play navi-tiny"></span></li>
+    {{/each}}
+    </ul>
+    <div class="outro">
+     {% endraw %}{{ site.singer_outro }}{% raw %}
+    </div>
+  </div>
+</script>
+{% endraw %}
+
+{% raw %}
+<script type="text/x-handlebars" data-template-name="song">
+<div class="pull-left btn-con big-text">
+  {{#if model.previous_song}}
+    <button class="btn btn-link btn-con">{{#linkTo 'song' model.previous_song}}<span class="navi glyphicon glyphicon-chevron-left"></span>{{/linkTo}}</button>
+  {{else}}
+    {{#linkTo 'index'}}<span class="navi-home-left glyphicon glyphicon-home"></span>{{/linkTo}}
+  {{/if}}
+</div>
+<div class="pull-right btn-con big-text">
+  {{#if model.next_song}}
+    <button class="btn btn-link btn-con">{{#linkTo 'song' model.next_song}}<span class="navi glyphicon glyphicon-chevron-right navi-right"></span>{{/linkTo}}</button>
+  {{else}}
+    {{#linkTo 'index'}}<span class="navi-home-right glyphicon glyphicon-home"></span>{{/linkTo}}
+  {{/if}}
+</div>
+</div>
+{{soundPlayer url=model.stream_url}}
+<div class="container">
+  <h1>{{model.title}}</h1>
+  <pre>{{model.description}}</pre>
+</div>
+</script>
+{% endraw %}
+
+{% raw %}
+<script type="text/x-handlebars" id="soundplayer">
+{{#if view.isLoaded }}
+  <div id="footer" class="bar" {{bindAttr style="view.percentWidth"}}></div>
+{{/if}}
+  <div class="container">
+    <div class="navi">
+      <div class="text-center big-text navi-toggle">
+        <button class="btn btn-link btn-con" {{action 'toggle' target="view"}} {{bindAttr disabled="view.isLoading"}}><span {{bind-attr class="view.playPauseLink"}}></span></button>
+      </div>
+    </div>
+  </div>
+</script>
+{% endraw %}

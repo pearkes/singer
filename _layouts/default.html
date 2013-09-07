@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ site.album_name }} | {{ site.artist_name }}</title>
+    <link href='http://fonts.googleapis.com/css?family={{ site.heading_font }}|{{ site.body_font }}' rel='stylesheet' type='text/css'>
+    <link href="/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <style type="text/css">
+    body {
+      background-image: url('{{ site.background_image_link }}');
+      font-family: '{{ site.body_font }}', sans-serif;
+    }
+    h1 {
+      font-family: '{{ site.heading_font }}', cursive;
+    }
+    </style>
+    <script>
+    const scKey = "{{ site.soundcloud_key }}";
+    const playlistId = "{{ site.soundcloud_set_id }}";
+    const setUrl = "http://api.soundcloud.com/playlists/" + playlistId + ".json?client_id=" + scKey + "&format=json";
+    </script>
+  </head>
+  <body>
+
+  {{ content }}
+
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', '{{ site.google_anayltics_key }}']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+<div id="app"></div>
+<script src="/assets/js/libs/soundmanager2-nodebug-jsmin.js"></script>
+<script src="/assets/js/libs/jquery-1.9.1.min.js"></script>
+<script src="/assets/js/libs/handlebars-1.0.0.min.js"></script>
+<script src="/assets/js/libs/ember-1.0.0.min.js"></script>
+<script src="/assets/js/player.js"></script>
+<script src="/assets/js/app.js"></script>
+</body>
+</html>
