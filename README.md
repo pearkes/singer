@@ -56,6 +56,7 @@ There are three values that are a bit more involved. Here are instructions for e
 - [Retrieving your "soundcloud_set_id"](#retrieving_set_id)
 - [Retrieving your "soundcloud_key"](#retrieving_your_soundcloud_key)
 - [Choosing Custom Fonts](#custom_fonts)
+- [Uploading a background image](#background_image)
 
 You should be all done editing your configuration now. Click the commit
 changes button:
@@ -128,6 +129,13 @@ the names of the ones you want to use in the `_config.yml` file.
 Here are some examples of the names:
 
 ![font names](https://dl.dropboxusercontent.com/s/ec0s9k3pkxmv2zy/2013-09-07%20at%202.40%20PM.png)
+
+## Background Image
+
+Head over to [imgur](http://imgur.com/), upload your album image and
+grab the direct link, that is, ending in `.jpg`, `.jpeg` or `.png`.
+
+Then, place that link in your `_config.yml` file.
 
 ## Help
 
