@@ -51,7 +51,7 @@ You should be editing your configuration now.
 This is pretty obvious – simply change all of the preconfigured values,
 replacing them with your own.
 
-There are three values that are a bit more involved. Here are instructions for each:
+There are four values that are a bit more involved. Here are instructions for each:
 
 - [Retrieving your "soundcloud_set_id"](#retrieving-your-set-id)
 - [Retrieving your "soundcloud_key"](#retrieving-your-soundcloud-key)
