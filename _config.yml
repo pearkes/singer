@@ -8,10 +8,10 @@ artist_name: Cool Band
 # The name of the album, set, EP, etc.
 album_name: Great Album
 
-# The set ID on soundcloud. See here: github.com/pearkes/singer#retrieving_your_set_id
+# The set ID on soundcloud. See here: github.com/pearkes/singer#retrieving-your-set-id
 soundcloud_set_id: 1234567
 
-# Your soundcloud application API key. See here: github.com/pearkes/singer#retrieving_your_soundcloud_key
+# Your soundcloud application API key. See here: github.com/pearkes/singer#retrieving-your-soundcloud-key
 soundcloud_key: w09bjw09erbjwrbwr09bjrw32jv23jb2
 
 # Your username on SoundCloud!
@@ -22,7 +22,7 @@ soundcloud_username: pearkes
 # Pretty snazzy.
 google_anayltics_key: UA-12345678-1
 
-# The link to your background image. See here: github.com/pearkes/singer/#background_image
+# The link to your background image. See here: github.com/pearkes/singer/#background-image
 background_image_link: http://i.imgur.com/foo.jpg
 
 # This intro will go on the first page.
@@ -36,10 +36,10 @@ singer_outro: |
         Thanks for listening. If you want to buy stuff from me, I'd love
         you forever. You can do that <a href="https://google.com">here.</a>.
 
-# The font for the body. See here: github.com/pearkes/singer/#custom_fonts
+# The font for the body. See here: github.com/pearkes/singer/#custom-fonts
 body_font: Josefin Sans
 
-# The font for headings. See here: github.com/pearkes/singer/#custom_fonts
+# The font for headings. See here: github.com/pearkes/singer/#custom-fonts
 heading_font: Dawning of a New Day
 
 ########################################################################
