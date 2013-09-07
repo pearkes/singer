@@ -8,10 +8,10 @@ artist_name: Cool Band
 # The name of the album, set, EP, etc.
 album_name: Great Album
 
-# The set ID on soundcloud. See here: github.com/pearkes/singer/#retrieving_set_id
+# The set ID on soundcloud. See here: github.com/pearkes/singer#retrieving_your_set_id
 soundcloud_set_id: 1234567
 
-# Your soundcloud application API key. See here: github.com/pearkes/singer/#retrieving_soundcloud_key
+# Your soundcloud application API key. See here: github.com/pearkes/singer#retrieving_your_soundcloud_key
 soundcloud_key: w09bjw09erbjwrbwr09bjrw32jv23jb2
 
 # Your username on SoundCloud!
