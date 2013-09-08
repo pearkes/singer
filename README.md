@@ -8,10 +8,13 @@ You don't need to be technical to set it up.
 
 ## Demo
 
-A live example of what it looks like is located at [aminoctu.com](http://aminoctu.com), and
-the source can be found at [github.com/pearkes/aminoctu.com](https://github.com/pearkes/aminoctu.com).
+A live example of what it looks like after it has been configured is
+located at [aminoctu.com](http://aminoctu.com).
 
 This demo, and my friend who makes that music, spurred creation of this project.
+
+You can view the [source](https://github.com/pearkes/aminoctu.com) of the
+demo as well.
 
 ## Setting It Up
 
