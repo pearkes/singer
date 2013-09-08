@@ -25,7 +25,9 @@ out the [`_config.yml`](_config.yml) file.
 
 ## Help
 
-Feel free to [file an issue](https://github.com/pearkes/singer/issues/new)
+Having trouble? Don't get discouraged! You can try Googling stuff, like
+"How to set-up a domain a record". If that doesn't work, feel free
+to [file an issue](https://github.com/pearkes/singer/issues/new)
 and someone will probably help you!
 
 ## Contributing
